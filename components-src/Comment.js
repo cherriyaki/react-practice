@@ -5,7 +5,7 @@ the component here is Comment.
 import React from 'react';
 // NOTE no need ReactDOM cuz this is just code for one component. the showing up on screen is done in the index.js file
 
-/* NOTE component function takes argument (conventionally called props), an object whose fields are values for customising this component */
+/* NOTE component function takes argument (conventionally called props, short for PROPERTIES), an object whose fields are values for customising this component */
 const Comment = props => {
   return (
     <div className="comment">
